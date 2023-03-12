@@ -1,10 +1,19 @@
 package principal;
 
+/**
+ * 
+ * Clase principal en donde se instancia el objeto que se va a utilizar como
+ * ejemplo de un AFD
+ * 
+ * @author Michael
+ *
+ */
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		AutomatFinite automatFinite = new AutomatFinite();
+		AutomatFiniteD automatFinite = new AutomatFiniteD();
+		// Se llama al metodo que toma los datos para el input y pasa
+		// luego al proceso construido para la logica del AFD
 		automatFinite.injectData();
 	}
 
